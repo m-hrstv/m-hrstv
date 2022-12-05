@@ -11,11 +11,11 @@ body {
 }
 
 #clock, #date {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bolder;
     text-align: center;
     font-family: Calibri, sans-serif;
-    color: rgba(14, 67, 124, 0.65);
+    color: rgb(235, 203, 139);
 }
 
 .clockdate {
@@ -28,10 +28,10 @@ body {
     height: 45px;
     white-space: nowrap;
     position: relative;
-    background-color: rgba(3, 45, 78, 0.4);
+    background-color: rgba(142, 181, 220, 0.7);
     backdrop-filter: blur(3px) grayscale(40%);
     border: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(46, 52, 64, 0.8);
     text-align: center;
     border-radius: 5px;
     font-family: Calibri, sans-serif;
@@ -41,12 +41,12 @@ body {
 
 .input_box:hover, .input_box:focus, .input_box:active{
     outline:none;
-    background-color: rgba(3, 45, 78, 0.8);
+    background-color: rgba(142, 181, 220, 1);
     backdrop-filter: blur(1px) grayscale(20%);
 }
 
 .input_box::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(46, 52, 64);
 }
 
 ul {
@@ -55,27 +55,27 @@ ul {
 
 li {
     padding-top: 1px;
-    color: rgba(171, 204, 223, 0.8);
+    color: rgb(163, 190, 140);
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 16pt;
     text-align: left;
 }
 
 .productivity, .recreation {
-    height: 363px;
+    height: 390px;
     width: 260px;
     display: inline-block;
     vertical-align: middle;
     border-radius: 4px;
     margin-top: 1.5%;
     resize: horizontal;
-    background-color: rgba(3, 23, 47, 0.65);
-    backdrop-filter: blur(3px) grayscale(40%);
+    background-color: rgba(29, 33, 41, 0.3);
+    backdrop-filter: blur(4px) /* grayscale(10%); */
 }
 
 .button {
-    color: rgba(252, 221, 219, 0.8);
-    font-size: 13pt;
+    color: rgb(180, 142, 173);
+    font-size: 14pt;
     text-decoration: none;
     text-align: right;
     font-weight: 500;
@@ -86,19 +86,19 @@ a:hover {
     padding: 10px, 10px, 10px, 10px;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 13pt;
-    background-color: rgb(252, 169, 177);
+    font-size: 14pt;
+    background-color: rgb(180, 142, 173);
     transition: background .3s ease;
 }
 
 h1 {
-    font-size: 15pt;
+    font-size: 16pt;
     text-align: left;
     padding-left: 10px;
     margin-top: 3px;
-    color: rgba(255, 255, 255, 0.8)
+    color: rgb(229, 233, 240)
 }
 
 .kur {
-    color: rgba(252, 169, 177, 1.0);
+    color: rgb(208, 135, 112);
 }
